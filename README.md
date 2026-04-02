@@ -16,14 +16,15 @@
 ## 🚀 Getting Started
 
 ```bash
-# 1. Clone the repository
+# 1. Fork the repository 
+# 2. Clone the repository
 git clone <repo-url>
 cd zudio-backend
 
-# 2. Install dependencies
+# 3. Install dependencies
 npm install
 
-# 3. Start the dev server
+# 4. Start the dev server
 npm run dev
 ```
 
