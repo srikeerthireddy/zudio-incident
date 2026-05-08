@@ -1,7 +1,19 @@
-# Zudio Incident Audit
+# Zudio Incident Audit — Complete Report
 
 ## Executive Summary
-This document details 5 critical bugs found in the Zudio backend API across three categories: Security (2), Logic (2), and Performance (1).
+
+**Incident Status: RESOLVED ✅**
+
+On Friday, May 8, 2026, 10:47 PM, Zudio backend experienced critical failures:
+- ❌ Orders placed but stock never decremented → 3 products with negative stock  
+- ❌ One customer charged twice
+- ❌ Coupon "SAVE50" (50 issued) used 400 times (8x over limit) → ~$15,000 loss
+- ❌ SQL injection vulnerability via search endpoint
+- ❌ Plaintext passwords stored in database
+
+**All 5 bugs identified, fixed, tested, and verified. ✅**
+
+This audit documents all issues, root causes, fixes applied, and verification results.
 
 ---
 
