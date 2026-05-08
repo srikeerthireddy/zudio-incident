@@ -47,7 +47,7 @@ CREATE TABLE products (
   name        VARCHAR(255),
   description TEXT,
   price       NUMERIC(10, 2),
-  stock       INTEGER DEFAULT 0,
+  stock       INTEGER DEFAULT 0 CHECK (stock >= 0),
   category_id INTEGER REFERENCES categories(id),
   image_url   TEXT,
   created_at  TIMESTAMP DEFAULT NOW()
