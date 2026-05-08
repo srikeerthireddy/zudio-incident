@@ -8,7 +8,6 @@ const productRoutes = require('./routes/product.routes')
 const authRoutes = require('./routes/auth.routes')
 const orderRoutes = require('./routes/order.routes')
 const cartRoutes = require('./routes/cart.routes')
-
 const app = express()
 
 app.use(cors())
